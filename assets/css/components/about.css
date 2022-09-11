@@ -1,0 +1,56 @@
+.my-skills__header{
+  text-align: center;
+  margin: 0.75em 0;
+}
+
+.my-skills__content{
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.my-skills__content__item{
+  display: grid;
+  grid-template-columns: 1.4em 1fr;
+  width: 25.9em;
+  margin: .8em;
+  gap: 1em;
+}
+
+.my-skills__content__item img{
+  height: 2.5rem;
+}
+
+.my-hobbies__header{
+  text-align: center;
+  margin: 0.75em 0;
+}
+
+.my-hobbies__content{
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.my-hobbies__content div{
+  width: 18.25em;
+  margin: .3em 0;
+}
+
+.my-hobbies__content img{
+  border-radius: 8px;
+}
+
+.my-hobbies__content div h3,
+.my-hobbies__content div p{
+  text-align: center;
+}
+
+.my-hobbies__content div h3{
+  margin:.75em 0;
+}
+
+.my-hobbies__content div p{
+  line-height: 1.5em;
+
+}
