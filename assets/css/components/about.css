@@ -39,6 +39,7 @@
 
 .my-hobbies__content img{
   border-radius: 8px;
+  object-fit: cover;
 }
 
 .my-hobbies__content div h3,

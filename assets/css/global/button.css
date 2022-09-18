@@ -59,11 +59,11 @@
 }
 
 .button--primary:hover {
-  background-color: var(--green-700);
+  background-color: var(--yellow-700);
 }
 
 .button--primary:active {
-  background-color: var(--green-800);
+  background-color: var(--yellow-800);
 }
 
 .button--primary:focus {
@@ -85,7 +85,7 @@
 }
 
 .button--secondary:hover {
-  background-color: var(--green-300);
+  background-color: var(--yellow-300);
 }
 
 .button--secondary:active {

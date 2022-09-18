@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Codeable UI - C8</title>
+    <link rel="stylesheet" href="assets/css/style.css" />
+  </head>
+  <body>
+    <header class="header">
+      <div class="container-lg py-1">
+        <nav class="navbar">
+          <input type="checkbox" id="menu-mobile" />
+          <a
+            href="/index.html"
+            class="header__logo text-decoration-none outline-none"
+          >
+            <h1 class="head-md semibold">Andres Naula</h1>
+
+            <div>
+              <!-- X -->
+              <label for="menu-mobile" id="toggle-close">
+                <i class="ri-close-line ri-xl"></i>
+              </label>
+
+              <!-- Hamburger -->
+              <label for="menu-mobile" id="toggle-open">
+                <i class="ri-menu-line ri-xl"></i>
+              </label>
+            </div>
+          </a>
+          <ul class="expandable navbar__links list-style-none">
+            <li>
+              <a href="/article.html" class="link text semibold">Articles</a>
+            </li>
+            <li>
+              <a href="/portfolio.html" class="link text semibold"
+                >Portafolio</a
+              >
+            </li>
+            <li><a href="/about.html" class="link text semibold">About</a></li>
+            <li>
+              <a
+                href="/contact.html"
+                class="button button--primary button--sm text-decoration-none w-full"
+              >
+                Contact Me
+              </a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <main>
+      <section class="section-md">
+        <div class="container-md">
+          <div class="contact-header">
+            <h2 class="head-lg semibold">Contact Me</h2>
+            <p class="text-lg light">
+              Looking to expand your team? Or do you need a web developer for a
+              specific project? If I can help you in any way don't hesitate to
+              fill this form.
+            </p>
+          </div>
+
+          <form class="form">
+            <div class="input-container">
+
+              <div class="input-row">
+                <div class="input-label">
+                  <label class="text-xs light overline" for="first_name">First Name</label>
+                  <input class="input" id="first_name" type="text" name="first_name" placeholder="John">
+                </div>
+                <div class="input-label">
+                  <label class="text-xs light overline" for="last_name">Last Name</label>
+                  <input class="input" id="last_name" type="text" name="last_name" placeholder="Doe">
+                </div>
+              </div>
+
+              <div class="input-row">
+                <div class="input-label">   
+                  <label for="email" class="text-xs light overline">Email</label>
+                  <input class="input" id="email" type="email" name="email" placeholder="john@mail.com"/>
+                </div>
+                <div class="input-label">
+                  <label class="text-xs light overline" for="company">Company</label>
+                  <input class="input" id="company" type="text" name="company" placeholder="Company S.A.">
+                </div>
+              </div>
+
+              <div class="input-row"> 
+                <div class="input-label">
+                  <label for="phone" class="text-xs light overline">Phone</label>
+                  <input class="input" type="tel" name="phone" placeholder="987654321">
+                </div>
+                <div class="input-label">
+                  <label for="country" class="text-xs light overline">Country</label>
+                  <select name="country" id="country" class="text-md light select">
+                    <option value="" hidden>Select one</option>
+                    <option value="AR">Argentina</option>
+                    <option value="BO">Bolivia</option>
+                    <option value="BR">Brasil</option>
+                    <option value="CL">Chile</option>
+                    <option value="CO">Colombia</option>
+                    <option value="EC">Ecuador</option>
+                    <option value="PY">Paraguay</option>
+                    <option value="PE">Peru</option>       
+                    <option value="UR">Uruguay</option>       
+                    <option value="VE">Venezuela</option>
+                  </select>
+                </div>
+              </div>
+            </div>
+
+            <div class="check_help">
+              <p class="text-xs light overline">How can I help you?</p>
+              
+              <div class="flex gap-0.5">
+                <div class="checkbox">
+                  <input type="checkbox" name="job_offer" id="job_offer" class="checkbox__input"/>
+                  <div class="checkbox__text-group">
+                    <label for="job_offer" class="text-sm light checkbox__label">Job Offer</label>
+                    <span class="text-xs light checkbox__help">If you are looking to expand your team</span>
+                  </div>
+                </div>
+              </div>
+
+              <div class="flex gap-0.5">
+                <div class="checkbox">
+                  <input type="checkbox" name="project_offer" id="project_offer" class="checkbox__input"/>
+                  <div class="checkbox__text-group">
+                    <label for="project_offer" class="text-sm light checkbox__label">Project Offer</label>
+                    <span class="text-xs light checkbox__help">If you are looking to expand your team</span>
+                  </div>
+                </div>
+              </div>
+
+              <div class="flex gap-0.5">
+                <div class="checkbox">
+                  <input type="checkbox" name="collaboration" id="collaboration" class="checkbox__input"/>
+                  <div class="checkbox__text-group">
+                    <label for="collaboration" class="text-sm light checkbox__label">Collaboration</label>
+                    <span class="text-xs light checkbox__help">If you are looking to expand your team</span>
+                  </div>
+                </div>
+              </div>
+
+              <div class="flex gap-0.5">
+                <div class="checkbox">
+                  <input type="checkbox" name="other" id="other" class="checkbox__input"/>
+                  <div class="checkbox__text-group">
+                    <label for="other" class="text-sm light checkbox__label">Other</label>
+                  </div>
+                </div>
+              </div>
+
+            </div>
+
+            <button class="button button--primary button--sm text-decoration-none w-full" type="submit">Send</button>
+          </form>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <div class="container-md footer__content">
+        <h2 class="head-xl semibold">Can I help you?</h2>
+        <a class="button button--lg button--primary">get in touch!</a>
+      </div>
+    </footer>
+  </body>
+</html>
